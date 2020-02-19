@@ -604,7 +604,7 @@ section.lazy-placeholder:after {
 .cid-rpRmsCyWoD {
   padding-top: 105px;
   padding-bottom: 105px;
-  background-color: #030303;
+  background-color: #000000;
 }
 .cid-rpRmsCyWoD .back {
   position: absolute;
@@ -612,7 +612,7 @@ section.lazy-placeholder:after {
   right: 0;
   width: 65%;
   height: 100%;
-  background-color: #030303;
+  background-color: #000000;
 }
 .cid-rpRmsCyWoD img {
   width: 100%;
