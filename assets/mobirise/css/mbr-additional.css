@@ -1617,9 +1617,7 @@ section.lazy-placeholder:after {
   opacity: 0.5;
 }
 .cid-rpRmsCyWoD {
-  padding-top: 105px;
-  padding-bottom: 105px;
-  background-color: #000000;
+  background-color: #030303;
 }
 .cid-rpRmsCyWoD .back {
   position: absolute;
@@ -1627,7 +1625,7 @@ section.lazy-placeholder:after {
   right: 0;
   width: 65%;
   height: 100%;
-  background-color: #000000;
+  background-color: #030303;
 }
 .cid-rpRmsCyWoD img {
   width: 100%;
@@ -2292,9 +2290,7 @@ section.lazy-placeholder:after {
   margin-top: -1.9rem;
   width: 60px;
   height: 60px;
-  font-size: 25px;
-  border: 2px solid #fff;
-  border-radius: 0 !important;
+  font-size: 35px;
   transition: all .3s;
   z-index: 11;
 }
@@ -2322,8 +2318,6 @@ section.lazy-placeholder:after {
   max-height: 20px;
   margin: 3px;
   background-color: #000000;
-  border: 2px solid #fff;
-  border-radius: 50%;
   opacity: .5;
   transition: all .3s;
 }
@@ -2414,7 +2408,7 @@ section.lazy-placeholder:after {
 }
 .cid-rQZmi2teJO H2 {
   text-align: right;
-  color: #030303;
+  color: #ffffff;
 }
 .cid-rQZmi2teJO P {
   text-align: center;
@@ -2778,7 +2772,7 @@ section.lazy-placeholder:after {
 .cid-rQZpyhMWLp {
   padding-top: 60px;
   padding-bottom: 75px;
-  background: #000000;
+  background: #030303;
 }
 .cid-rQZpyhMWLp .team-card .image-wrap {
   overflow: hidden;
@@ -2829,6 +2823,9 @@ section.lazy-placeholder:after {
     margin-bottom: 0;
   }
 }
+.cid-rQZpyhMWLp .main-title {
+  color: #000000;
+}
 .cid-rRtudM5jKp {
   padding-top: 90px;
   padding-bottom: 180px;
@@ -2843,7 +2840,7 @@ section.lazy-placeholder:after {
   right: 0;
   width: 100%;
   height: 30%;
-  background-color: #ffffff;
+  background-color: #030303;
 }
 .cid-rRtudM5jKp .block {
   background-color: #030303;
@@ -2910,7 +2907,7 @@ section.lazy-placeholder:after {
   right: 0;
   width: 100%;
   height: 30%;
-  background-color: #ffffff;
+  background-color: #030303;
 }
 .cid-rRtv9rJ6rX .block {
   background-color: #030303;
@@ -2974,7 +2971,7 @@ section.lazy-placeholder:after {
   right: 0;
   width: 100%;
   height: 30%;
-  background-color: #ffffff;
+  background-color: #030303;
 }
 .cid-rRtvzCS5cO .block {
   background-color: #030303;
@@ -3043,7 +3040,7 @@ section.lazy-placeholder:after {
 }
 .cid-rRFysKUMTf .card img {
   position: relative;
-  width: 100%;
+  width: 50%;
   border-radius: 50%;
 }
 .cid-rRFysKUMTf .card-title {
