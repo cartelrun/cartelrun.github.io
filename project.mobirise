@@ -49,15 +49,16 @@
     "versionPublish": "4.12.0",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/metallic-logo-intro-2-128x72.png",
-    "cssOptimize": false,
-    "lazyLoad": false,
-    "lazyType": "nothing",
+    "cssOptimize": true,
+    "lazyLoad": true,
+    "lazyType": "blur",
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
-    "sitemapSwitcherAuto": false,
+    "sitemapSwitcherAuto": "on",
     "siteUrl": false,
     "cookiesAlert": false,
-    "gdpr": false
+    "gdpr": false,
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n"
   },
   "pages": {
     "index.html": {
