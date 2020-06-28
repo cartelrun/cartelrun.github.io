@@ -13,14 +13,17 @@
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
   <link rel="stylesheet" href="assets/tether/tether.min.css">
+  <link rel="stylesheet" href="assets/facebook-plugin/style.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
-  <link rel="stylesheet" href="assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="assets/animatecss/animate.min.css">
   <link rel="stylesheet" href="assets/socicon/css/styles.css">
+  <link rel="stylesheet" href="assets/dropdown/css/style.css">
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
   
-  
+  <script src="assets/web/assets/lazyload/lazyload.js"></script>
+
   
 
 </head>
@@ -96,10 +99,10 @@
             </div>
             <div class="col-lg-6 title-col m-auto align-left">
                 <div class="text-wrap align-left">
-                    <h3 class="number mbr-medium mbr-black mbr-fonts-style display-4">ACTION | COMEDY</h3>
-                    <h2 class="mbr-section-title py-4 mbr-semibold mbr-black mbr-fonts-style display-4"></h2>
-                    <p class="mbr-text mbr-black mbr-regular mbr-light mbr-fonts-style display-7">
-                        A washed up suicidal Mexican singer has to escape across Mexico with a sleazy U.S. arms dealer, disguised as a priest and rabbi, when two rival cartels hunt the pair.</p>
+                    <h3 class="number mbr-medium mbr-black mbr-fonts-style display-4">ACTION/COMEDY | SYNOPSIS</h3>
+                    <h2 class="mbr-section-title py-4 mbr-semibold mbr-black mbr-fonts-style display-7"></h2>
+                    <p class="mbr-text mbr-black mbr-regular mbr-light mbr-fonts-style display-2">
+                        When rival cartels place bounties for insulting YouTube songs, a Mexican singer has to escape across Mexico with a US arms dealer he hates, disguised as a priest and a rabbi.</p>
                 </div>
             </div>
         </div>
@@ -194,8 +197,11 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-12 main-heading pb-5">
-                
-                
+                <h3 class="mbr-section-subtitle main-subtitle mbr-fonts-style mbr-lighter align-center mbr-white display-4">
+                    CARTEL RUN</h3>
+                <div class="underline align-center pb-3">
+                    <div class="line"></div>
+                </div>
                 <h2 class="mbr-section-title main-title mbr-fonts-style align-center mbr-white display-2">
                     PROJECTED CAST</h2>
                 
@@ -348,7 +354,7 @@
                     <h4 class="mbr-section-subtitle mbr-regular mbr-black pb-2 mbr-fonts-style display-4"><strong>CARTEL RUN</strong>&nbsp;/ AUDIENCE</h4>
                     <div class="content">
                         
-                        <h1 class="mbr-section-title mbr-semibold mbr-black pb-4 mbr-fonts-style display-1">Audience</h1>
+                        <h1 class="mbr-section-title mbr-semibold mbr-black pb-4 mbr-fonts-style display-2">Audience</h1>
 
                         <p class="mbr-text mbr-white mbr-regular mbr-black mbr-fonts-style display-5">This action comedy celebrates the historic ties between the U.S. and Mexico, while giving an action audience what they want... guns, fast cars, and fighting.</p>
                         
@@ -432,21 +438,35 @@
                 </div>
             </div>
 
-            <div class="card col-12 col-md-6 align-center col-lg-4">
+            <!--<div class="card col-12 col-md-6 align-center" mbr-class="{'col-lg-3': cardsAmount == '4',
+                             'col-lg-4': cardsAmount == '3'}" mbr-if="cardsAmount > 1">
                 <div class="card-img">
-                    <img src="assets/images/patricia-282x347.jpeg" alt="" title="">
+                    <img src="assets/images/patricia-282x347.jpeg" alt="" title>
                 </div>
-                <div class="card-box">
-                    <h4 class="card-title mbr-fonts-style mbr-semibold display-2">Patricia Martinez de Velasco</h4>
-                    <p class="phone-num mbr-fonts-style display-7">                         
+                <div class="card-box" mbr-if="showContentTitle || showContentSubTitle || showPhone || showEmail || showIcons">
+                    <h4 class="card-title mbr-fonts-style mbr-semibold" mbr-theme-style="display-2" mbr-if="showContentTitle" data-app-selector=".card-title">Patricia Martinez de Velasco</h4>
+                    <p class="phone-num mbr-fonts-style" mbr-theme-style="display-7" mbr-if="showPhone">                         
                         Director<br>Cell | <a href="tel:310-339-3483" class="text-danger">(310) 339-3483</a>
                     </p>
-                    <p class="e-mail mbr-fonts-style display-7">Email | <a href="mailto:patmtzdev@gmail.com" class="text-danger">patmtzdev@gmail.com</a>
+                    <p class="e-mail mbr-fonts-style" mbr-theme-style="display-7" mbr-if="showEmail">Email | <a href="mailto:patmtzdev@gmail.com" class="text-danger">patmtzdev@gmail.com</a>
                     </p>
-                    
-                    <h3 class="mbr-text mbr-bold mbr-fonts-style specialty display-7"><div></div></h3>
+                    <div class="social-links" mbr-if="showIcons">
+                        <a href="https://twitter.com/mobirise" target="_blank">
+                            <span mbr-icon class="px-2 socicon-twitter socicon mbr-iconfont mbr-iconfont-social"></span>
+                        </a>
+                        <a href="https://www.facebook.com/pages/Mobirise/1616226671953247" target="_blank" mbr-if="iconsAmount > 1">
+                            <span mbr-icon class="px-2 socicon-facebook socicon mbr-iconfont mbr-iconfont-social"></span>
+                        </a>
+                        <a href="https://instagram.com/mobirise" target="_blank" mbr-if="iconsAmount > 2">
+                            <span mbr-icon class="px-2 socicon-instagram socicon mbr-iconfont mbr-iconfont-social"></span>
+                        </a>
+                        <a href="https://linkedin.com" target="_blank" mbr-if="iconsAmount > 3">
+                            <span mbr-icon class="px-2 socicon-linkedin socicon mbr-iconfont mbr-iconfont-social"></span>
+                        </a>
+                    </div>
+                    <h3 class="mbr-text mbr-bold mbr-fonts-style specialty" mbr-theme-style="display-7" mbr-if="showContentSubTitle"><div></div></h3>
                 </div>
-            </div>
+            </div>-->
 
             <div class="card col-12 col-md-6 align-center col-lg-4">
                 <div class="card-img">
@@ -471,20 +491,24 @@
   <script src="assets/web/assets/jquery/jquery.min.js"></script>
   <script src="assets/popper/popper.min.js"></script>
   <script src="assets/tether/tether.min.js"></script>
+  <script src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5"></script>
+  <script src="https://apis.google.com/js/plusone.js"></script>
+  <script src="assets/facebook-plugin/facebook-script.js"></script>
   <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-  <script src="assets/dropdown/js/nav-dropdown.js"></script>
-  <script src="assets/dropdown/js/navbar-dropdown.js"></script>
-  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
-  <script src="assets/vimeoplayer/jquery.mb.vimeo_player.js"></script>
+  <script src="assets/viewportchecker/jquery.viewportchecker.js"></script>
   <script src="assets/smoothscroll/smooth-scroll.js"></script>
+  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
+  <script src="assets/ytplayer/jquery.mb.ytplayer.min.js"></script>
+  <script src="assets/vimeoplayer/jquery.mb.vimeo_player.js"></script>
   <script src="assets/bootstrapcarouselswipe/bootstrap-carousel-swipe.js"></script>
   <script src="assets/parallax/jarallax.min.js"></script>
-  <script src="assets/ytplayer/jquery.mb.ytplayer.min.js"></script>
+  <script src="assets/dropdown/js/nav-dropdown.js"></script>
+  <script src="assets/dropdown/js/navbar-dropdown.js"></script>
   <script src="assets/theme/js/script.js"></script>
   <script src="assets/slidervideo/script.js"></script>
-  <script src="assets/web/assets/lazyload/lazyload.js"></script>
   
- <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i></a></div>
+  
+  <input name="animation" type="hidden">
   
 </body>
 </html>
