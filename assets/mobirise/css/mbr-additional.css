@@ -1524,6 +1524,124 @@ blockquote {
     left: -18px;
   }
 }
+.cid-sdjJ90YZjS {
+  padding-top: 75px;
+  padding-bottom: 75px;
+  background-color: #000000;
+}
+.cid-sdjJ90YZjS H1 {
+  color: #232323;
+}
+.cid-sdjJ90YZjS .mbr-text,
+.cid-sdjJ90YZjS .mbr-section-btn {
+  color: #ffffff;
+}
+.cid-sdjJ90YZjS .img-box {
+  position: relative;
+}
+.cid-sdjJ90YZjS .card-ico span {
+  font-size: 96px;
+  color: #3a6686;
+  padding: 0.6rem;
+  margin-right: 1.5rem;
+  border-radius: 8px;
+}
+.cid-sdjJ90YZjS .card-ico .ico1 {
+  background-color: #4249cc;
+}
+.cid-sdjJ90YZjS .mbr-iconfont {
+  transition: all 0.3s;
+  color: #ffffff !important;
+  font-size: 1rem !important;
+}
+.cid-sdjJ90YZjS .card {
+  display: flex;
+  flex-direction: row;
+  max-width: 350px;
+}
+.cid-sdjJ90YZjS .img1 {
+  position: absolute;
+  top: 0;
+  right: 3rem;
+  z-index: 1;
+}
+.cid-sdjJ90YZjS .img2 {
+  position: absolute;
+  bottom: 0;
+  left: 3rem;
+  z-index: 2;
+}
+.cid-sdjJ90YZjS img {
+  width: 48%;
+  border-radius: 10px;
+  box-shadow: 0 10px 55px 5px rgba(245, 84, 75, 0.35);
+}
+@media (max-width: 992px) {
+  .cid-sdjJ90YZjS .img-box {
+    height: 500px;
+  }
+  .cid-sdjJ90YZjS .img2 {
+    left: 1rem;
+  }
+  .cid-sdjJ90YZjS .img1 {
+    right: 1rem;
+  }
+  .cid-sdjJ90YZjS img {
+    width: 50%;
+  }
+}
+@media (max-width: 576px) {
+  .cid-sdjJ90YZjS img {
+    width: 60%;
+  }
+  .cid-sdjJ90YZjS .img-box {
+    height: 300px;
+  }
+}
+@media (max-width: 576px) {
+  .cid-sdjJ90YZjS .author-box {
+    justify-content: center;
+  }
+  .cid-sdjJ90YZjS .card {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0!important;
+  }
+  .cid-sdjJ90YZjS .card .card-ico {
+    margin-bottom: 2rem;
+  }
+  .cid-sdjJ90YZjS .card:hover {
+    box-shadow: none;
+    transform: none;
+  }
+  .cid-sdjJ90YZjS .card-ico span {
+    margin-right: 0rem;
+  }
+}
+.cid-sdjJ90YZjS .author-box {
+  display: flex;
+  flex-direction: row;
+}
+.cid-sdjJ90YZjS .face {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  box-shadow: none;
+  margin: 0rem;
+}
+.cid-sdjJ90YZjS .author {
+  padding-left: 2rem;
+  margin: auto 0;
+}
+.cid-sdjJ90YZjS h3,
+.cid-sdjJ90YZjS h4 {
+  margin: 0;
+  padding: 0;
+}
+.cid-sdjJ90YZjS .card-title,
+.cid-sdjJ90YZjS .mbr-section-subtitle {
+  color: #232323;
+}
 .cid-scT6p6Q4Zn {
   background-color: #030303;
 }
